@@ -14,6 +14,7 @@ curl -fsSL https://raw.githubusercontent.com/demoniksem/superpowers-skills/main/
 
 ## Скиллы
 
+### Superpowers Workflow
 | Скилл | Назначение |
 |-------|------------|
 | `brainstorming` | **MANDATORY** перед любой креативной работой |
@@ -24,10 +25,20 @@ curl -fsSL https://raw.githubusercontent.com/demoniksem/superpowers-skills/main/
 | `finishing-a-development-branch` | Завершение работы с выбором стратегии |
 | `receiving-code-review` | Обработка feedback от code review |
 
+### Taste Skill (Design Rules)
+Премиальные дизайн-правила из [taste-skill](https://github.com/Leonxlnx/taste-skill) — анти-паттерны, типографика, motion, layout variance.
+
+| Файл | Назначение |
+|------|------------|
+| `taste-skill/SKILL.md` | Core design rules (226 секций: typography, color, layout, 10-section creative arsenal) |
+| `taste-skill/soft-skill.md` | Awwwards-tier UI — haptic aesthetics, nested architecture |
+| `taste-skill/minimalist-skill.md` | Editorial/Linear/Notion vibes |
+| `taste-skill/output-skill.md` | Anti-truncation — forces full output |
+
 ## Workflow
 
 ```
-Idea → brainstorming (MANDATORY) → frontend-design → writing-plans → executing-plans → finishing-a-development-branch
+Idea → brainstorming (MANDATORY) → frontend-design (+ taste-skill) → writing-plans → executing-plans → finishing-a-development-branch
 ```
 
 ## Для других агентов

@@ -8,6 +8,23 @@ related_skills: [brainstorming, writing-plans]
 
 See `references/frontend-design-plugin.md` for the original Claude Code plugin documentation and detailed design guidelines.
 
+## Taste Skill Integration
+
+For **detailed design rules, anti-slop patterns, and premium UI constraints**, consult these skill files from the taste-skill collection:
+
+| File | Purpose |
+|------|---------|
+| `taste-skill/SKILL.md` | Core design rules — typography, color, layout, motion, 10-section creative arsenal |
+| `taste-skill/soft-skill.md` | Awwwards-tier UI — haptic aesthetics, nested architecture, premium motion |
+| `taste-skill/minimalist-skill.md` | Editorial/Linear/Notion vibes |
+| `taste-skill/output-skill.md` | Anti-truncation — forces full output, no placeholder comments |
+
+**Usage pattern:**
+1. After `brainstorming` design is approved
+2. Before `writing-plans`, invoke `frontend-design`
+3. Load relevant taste-skill file(s) for design rules matching the aesthetic direction
+4. Apply those rules in combination with the guidelines below
+
 Create distinctive, production-grade frontend interfaces with high design quality. Generate creative, polished code that avoids generic "AI slop" aesthetics.
 
 **Trigger:** After `brainstorming` design approved, before `writing-plans` for any frontend task.

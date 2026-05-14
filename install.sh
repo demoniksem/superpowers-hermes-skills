@@ -22,6 +22,11 @@ for skill_dir in "$REPO_DIR"/*/; do
         if [[ -d "$skill_dir/references" ]]; then
             cp -r "$skill_dir/references" "$target_dir/"
         fi
+    elif [[ "$skill_name" == "taste-skill" ]]; then
+        # taste-skill is a skill bundle with multiple design rule files
+        echo "  Installing $skill_name (design rules bundle)..."
+        mkdir -p "$target_dir"
+        cp "$skill_dir"/*.md "$target_dir/" 2>/dev/null || true
     fi
 done
 
